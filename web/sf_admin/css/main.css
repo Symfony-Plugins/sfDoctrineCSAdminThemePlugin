@@ -75,6 +75,13 @@ body
   margin-left: 160px;
 }
 
+#cs_wrapper #cs_content h2
+{
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  color: #86AEAC;
+}
+
 #cs_wrapper #cs_footer
 {
   
@@ -144,7 +151,7 @@ body
   vertical-align:middle;
 }
 
-#sf_admin_container label
+#sf_admin_container label, #cs_content label
 {
   display: block;
   padding: 0 1em 3px 0;
@@ -182,7 +189,7 @@ body
   background: #73B65A url(../images/ok.png) no-repeat 5px 2px;
 }
 
-#sf_admin_container .form-row
+#sf_admin_container .form-row, #cs_content .form-row
 {
   clear: both;
   padding: 10px;
@@ -226,9 +233,10 @@ body
   margin: 0;
 }
 
-#sf_admin_container .form-error
+#sf_admin_container .form-error, #cs_content .form_error
 {
   color: #f33;
+  font-weight: bold;
 }
 
 #sf_admin_container .form-error input, #sf_admin_container .form-error select, #sf_admin_container .form-error textarea
@@ -236,7 +244,7 @@ body
   border: 1px solid #f33;
 }
 
-#sf_admin_container fieldset
+#sf_admin_container fieldset, #cs_content fieldset
 {
   margin-bottom: 10px;
   border: 1px solid #ddd;
