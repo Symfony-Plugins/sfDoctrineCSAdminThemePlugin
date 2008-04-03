@@ -32,6 +32,8 @@ body
 {
   background-color: #F2F2F2;
   border: 1px solid #333333;
+  float: left;
+  width: 100%;
 }
 
 #cs_wrapper #cs_header
@@ -57,8 +59,10 @@ body
 #cs_wrapper #cs_menu
 {
   float: left;
-  width: 150px;
-  margin-top: 10px;
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  white-space: nowrap;
 }
 
 #cs_wrapper #cs_menu ul
@@ -69,17 +73,19 @@ body
 
 #cs_wrapper #cs_content
 {
+  width: 80%;
   padding: 15px;
   background-color: #FFFFFF;
   border-left: 1px solid #CCCCCC;
-  margin-left: 160px;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  float: left;
 }
 
 #cs_wrapper #cs_content h2
 {
   border-bottom: 1px solid #ddd;
   margin-bottom: 20px;
-  color: #86AEAC;
 }
 
 #cs_wrapper #cs_footer
@@ -126,9 +132,6 @@ body
 
 #sf_admin_container h1
 {
-  margin: 8px 0;
-  padding: 3px;
-  padding-left: 0px;
   color: #86AEAC;
   font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
   font-size: 25px;
