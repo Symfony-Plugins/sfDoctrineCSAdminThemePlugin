@@ -93,6 +93,29 @@ body
   
 }
 
+#cs_wrapper #cs_flash
+{
+  position: absolute;
+  right: 100px;
+  background-color: #F8FFBC;
+  border: 1px solid #CCCCCC;
+  border-top: none;
+  padding: 6px;
+  font-size: 14px;
+}
+
+#cs_wrapper #cs_flash #cs_notices
+{
+  font-weight: bold;
+  color: green;
+}
+
+#cs_wrapper #cs_flash #cs_errors
+{
+  font-weight: bold;
+  color: red;
+}
+
 #sf_admin_container ul, #sf_admin_container ol, #sf_admin_container li, #sf_admin_container h1, #sf_admin_container h2, #sf_admin_container h3, #sf_admin_container h4, #sf_admin_container h5, #sf_admin_container h6, #sf_admin_container pre, #sf_admin_container form, #sf_admin_container body, #sf_admin_container html, #sf_admin_container p, #sf_admin_container blockquote, #sf_admin_container fieldset, #sf_admin_container input { margin: 0; padding: 0; }
 #sf_admin_container a img,:link img,:visited img { border: none; }
 
