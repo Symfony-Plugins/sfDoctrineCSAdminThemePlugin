@@ -10,15 +10,15 @@
     <?php endif; ?>
   </div>
 
-  <?php if( $sf_flash->has('notice') OR $sf_flash->has('error') ): ?>
+  <?php if( $sf_user->hasFlash('notice') OR $sf_user->hasFlash('error') ): ?>
   <div id="cs_flash">
-    <?php if ($sf_flash->has('notice')): ?>
+    <?php if ($sf_user->hasFlash('notice')): ?>
       <div id="cs_notices">
-        <?php echo $sf_flash->get('notice'); ?>
+        <?php echo $sf_user->getFlash('notice'); ?>
       </div>
-    <?php elseif ($sf_flash->has('error')): ?>
+    <?php elseif ($sf_user->hasFlash('error')): ?>
       <div id="cs_errors">
-        <?php echo $sf_flash->get('error'); ?>
+        <?php echo $sf_user->getFlash('error'); ?>
       </div>
     <?php endif; ?>
   </div>
